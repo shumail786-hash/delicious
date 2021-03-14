@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/5b1485d708.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <!-- Nave Bar Start -->
+    <nav class="navbar scroll-nav navbar-expand-lg navbar-light w-100 position-fixed top-0"
+        style=" z-index: 2; background: transparent;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"
+                style=" margin-left: 12%; letter-spacing: 1.2px; font-family: cursive; font-size: 2rem;">Delicious</a>
+            <button class="navbar-toggler border border-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="icp"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0" style="position: relative; left: 13%;">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#special">Special</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#chefs">Chef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                            <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                            <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                            <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+    <!-- Automatic slider start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel"
+        style="position: relative;top: -13vh;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <!-- 1st Slider image -->
+        <div class="mainslider">
+            <div class="carousel-inner">
+                <div class="carousel-item active slides">
+                    <!-- <img src="./img/slide/slide-1.jpg" class="d-block w-100" alt="..." style="height: 90vh;"> -->
+                    <div class="container carousel-caption d-none d-md-block mx-auto"
+                        style="position: relative; top: 40%; left: 0;">
+                        <h2 style=" font-size: 4rem; font-family: French Script MT; vertical-align: inherit;"><span
+                                style="color: #FFB03B; font-family: cursive;">Delicious</span> Restaurant
+                        </h2>
+                        <div class="container w-75">
+                            <p class="text-center">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est
+                                quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                                voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi
+                                architecto.</p>
+                        </div>
+                        <div class="container">
+                            <button type="button" class="btn btn-outline-warning text-white hvbtn">Our Menu</button>
+                            <button type="button" class="btn btn-outline-warning text-white hvbtn">Book a Table</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd SLider Image -->
+                <div class="carousel-item slides slides2">
+                    <!-- <img src="./img/slide/slide-2.jpg" class="d-block w-100" alt="..." style="height: 90vh;"> -->
+                    <div class="container carousel-caption d-none d-md-block mx-auto"
+                        style="position: relative; top: 40%; left: 0;">
+                        <h2 style=" font-size: 4rem; font-family: French Script MT; vertical-align: inherit;">Lorem
+                            ipsum Pain
+                        </h2>
+                        <div class="container w-75">
+                            <p class="text-center" style="letter-spacing: px;">Ut velit est quam dolor ad a aliquid qui
+                                aliquid. Sequi ea ut et est
+                                quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                                voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi
+                                architecto.</p>
+                        </div>
+                        <div class="container">
+                            <button type="button" class="btn btn-outline-warning text-white hvbtn">Our Menu</button>
+                            <button type="button" class="btn btn-outline-warning text-white hvbtn">Book a Table</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd Slider Image -->
+                <div class="carousel-item slides slides3">
+                    <!-- <img src="./img/slide/slide-3.jpg" class="d-block w-100" alt="..." style="height: 90vh;"> -->
+                    <div class="container carousel-caption d-none d-md-block mx-auto"
+                        style="position: relative; top: 40%; left: 0;">
+                        <h2 style=" font-size: 4rem; font-family: French Script MT; vertical-align: inherit;">Follow
+                            them a they seek
+                        </h2>
+                        <div class="container w-75">
+                            <p class="text-center" style="letter-spacing: px;">Ut velit est quam dolor ad a aliquid qui
+                                aliquid. Sequi ea ut et est
+                                quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                                voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi
+                                architecto.</p>
+                        </div>
+                        <div class="container">
+                            <button type="button" class="btn btn-outline-warning text-white hvbtn">Our Menu</button>
+                            <button type="button" class="btn btn-outline-warning text-white hvbtn">Book a Table</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev" style="color: blueviolet;">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: blueviolet;"></span>
+            <span class="visually-hidden" style="color: blueviolet;">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Automatic slider end -->
+    <!-- About Section Started -->
+    <div id="about">
+        <div class="container-fluid" style="background-color: rgb(255, 250, 243);">
+            <div class="card mb-3 mx-auto contain">
+                <div class="row g-0">
+                    <div class=" col-lg-5 col-md-5 div1 position-relative">
+                        <div class="video-box">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold"
+                                style="text-align: center;font-style: italic; color:rgb(95, 89, 80);">Lorem ipsum dolor
+                                sit
+                                amet consectetur <b>adipisicing elit. Quod minus tempore saepe.</b></h4>
+                            <h5 class="card-text" style="text-align: center;margin-top: 20px;">Magnam dolores commodi
+                                suscipit. Necessitatibus
+                                eius consequatur <br>ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                                quos
+                                <br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</h5>
+                            <h5 class="card-text" style="text-align: center;"><span style="color: #ffb03b;"><i
+                                        class="fas fa-check-double"></i></span>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. </h5>
+                            <h5 class="card-text" style="text-align: center;"><span style="color: #ffb03b;"><i
+                                        class="fas fa-check-double"></i></span>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. </h5>
+                            <h5 class="card-text" style="text-align: center;"><span style="color: #ffb03b;"><i
+                                        class="fas fa-check-double"></i></span>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. </h5>
+                            <h5 style="text-align: center;margin-top: 20px;">Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Pariatur autem laborum provident voluptatum explicabo accusantium
+                                minima
+                                maxime ullam reiciendis aut, in illum nesciunt rerum tempore, nam ea vel, voluptatibus
+                                magni. </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pb-5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="mx-auto text-center">
+                        <h1
+                            style="font-weight: bolder; font-size: 3rem; font-family: French Script MT; vertical-align: inherit;">
+                            Why Choose <span style="color: #FFB03B;">Our Restaurant</span></h1>
+                        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+                            voluptas
+                            atque vitae autem.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-md menu-card-1">
+                            <p class="h4">01</p>
+                            <h2>Lorem Ipsum</h2>
+                            <p class="h6">
+                                Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero
+                                placeat
+                            </p>
+                        </div>
+                        <div class="col-md menu-card-1">
+                            <p class="h4">02</p>
+                            <h2>Repellat Nihil</h2>
+                            <p class="h6">
+                                Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero
+                                placeat
+                            </p>
+                        </div>
+                        <div class="col-md menu-card-1">
+                            <p class="h4">03</p>
+                            <h2>Ad ad velit qui</h2>
+                            <p class="h6">
+                                Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero
+                                placeat
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Section ended-->
+    </div>
+
+
+    <!-- Menu section started -->
+    <div id="menu">
+        <div class="container-fluid mt-5 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-mx-auto  text-center">
+                        <h1
+                            style=" font-weight: bolder; font-size: 3rem; font-family: French Script MT; vertical-align: inherit;">
+                            Check our tasty <span style="color: #FFB03B;">Menu</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Button section started -->
+        <div class="container pb-4">
+            <div class="row text-center">
+                <div class="col-12">
+                    <button type="button" class="btn mx-md-2 all">ALL</button>
+                    <button type="button" class="btn mx-md-2 starters">Starters</button>
+                    <button type="button" class="btn mx-md-2 salads">Salads</button>
+                    <button type="button" class="btn mx-md-2 speciality">Speciality</button>
+                </div>
+            </div>
+        </div>
+        <div class="container inner">
+            <div class="row" style="margin-left: 3%;">
+                <div class="col-md-5 mt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Lobster Bisque
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">..........................................</span>
+                        $5.95 <br>
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+
+                </div>
+                <div class="col-md-5 pt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Bread barrel
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">..............................................</span>
+                        $6.95
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+            </div>
+
+            <div class="row mt-4" style="margin-left: 3%;">
+                <div class="col-md-5 mt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Crab Cake
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">..................................................</span>
+                        $7.95
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+                <div class="col-md-5 pt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Caesar Selections
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">......................................</span>
+                        $8.95
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+            </div>
+
+            <div class="row mt-4" style="margin-left: 3%;">
+                <div class="col-md-5 mt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Mozzarella Stick
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">........................................</span>
+                        $9.95
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+                <div class="col-md-5 mt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Greek Salad
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">...............................................</span>
+                        $4.95
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+            </div>
+            <div class="row mt-4" style="margin-left: 3%;">
+                <div class="col-md-5 mt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Spinach Salad
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">............................................</span>
+                        $9.95
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+                <div class="col-md-5 mt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Lobster Roll
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">...............................................</span>
+                        $9.95
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+            </div>
+            <div class="row mt-4" style="margin-left: 3%;">
+                <div class="col-md-5 mt-sm-4 mx-auto">
+                    <h5>
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Tuscon Grilled
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">............................................</span>
+                        $12.5
+                    </h5>
+                    <p>Lorem Ipsum Dolar</p>
+                </div>
+                <div class="col-md-5 mx-auto mt-sm-4">
+                    <h5 class="d-none">
+                        <span style="font-weight: bolder; color: #FFB03B; font-size: 1.24rem;">
+                            Tuscon Grilled
+                        </span><span
+                            style="color: grey; font-size: .8rem; letter-spacing: 2.4px;">..........................................</span>
+                        $15
+                    </h5>
+                    <p class="d-none">Lorem Ipsum Dolar</p>
+                </div>
+            </div>
+        </div>
+        <!-- Button section ended -->
+    </div>
+    <!-- Menu section ended -->
+
+    <!-- Specials section started -->
+
+    <div id="special">
+        <!-- SPECIAL SEC START -->
+  <div class="container-fluid py-5">
+    <div class="container">
+      <p class="h3 text-center" style="font-size: 3rem; font-family: French Script MT; font-weight: bolder;">Check our<span style="color: #FFB03B"> Special</span></p>
+      <p class="text-center fs-6">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      <!-- Special data -->
+      <div class="row special-data">
+        <div class="col-lg-3 special-data-links">
+          <ul>
+            <li class="special-data-link special-data-link-active">Modi sit est</li>
+            <li class="special-data-link">Unde praesentium sed</li>
+            <li class="special-data-link">Pariatur explicabo vel</li>
+            <li class="special-data-link">Nostrum qui quasi</li>
+            <li class="special-data-link">Iusto ut expedita aut</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 special-txt" style="transition: .3s;">
+          <p class="h4 py-2">Architecto ut aperiam autem id</p>
+          <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
+          Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+        </div>
+        <div class="col-lg-3 mx-auto text-center special-img">
+          <img src="img/specials-1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Special Section ended -->
+
+    <!-- Event Section has started  -->
+    <div id="events">
+        <div class="event mt-4">
+            <div id="carouselExampleDark1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark1" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <h4 class="mt-3" style="font-style: italic;color: white;text-align: center;">Organize Your <span
+                            style="color: #FFB03B;">Events</span> in our Restaurant</h4>
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row mt-5">
+                                <div class="col-md-6 eve mx-auto">
+                                    <img src="./img/event-custom.jpg" alt="" class="img-responsive">
+                                </div>
+                                <div class="col-md-6 mx-auto">
+                                    <h4 style="color: #FFB03B;font-style: italic;font-weight: bolder;">Custom Parties
+                                    </h4>
+                                    <h3 style="color: white;font-weight: bolder;">99%
+                                        <hr
+                                            style="height: 3px;border: none;outline: none;width: 50px;background: #ff9900;opacity: 1;">
+                                    </h3>
+                                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Natus
+                                        ab harum impedit, corporis voluptatem labore.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quod
+                                        voluptatem nostrum aspernatur quisquam! Ullam, cum nam? Id aut quibusdam
+                                        aliquid,
+                                        autem nisi officia eveniet iste fugiat explicabo! Pariatur aliquam sequi
+                                        similique
+                                        ipsa illum impedit a.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row mt-5">
+                                <div class="col-md-6 eve mx-auto">
+                                    <img src="./img/event-private.jpg" alt="" class="img-responsive">
+                                </div>
+                                <div class="col-md-6 mx-auto">
+                                    <h4 style="color: #FFB03B;font-style: italic;font-weight: bolder;">Custom Parties
+                                    </h4>
+                                    <h3 style="color: white;font-weight: bolder;">99%
+                                        <hr
+                                            style="height: 3px;border: none;outline: none;width: 50px;background: #ff9900;opacity: 1;">
+                                    </h3>
+                                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Natus
+                                        ab harum impedit, corporis voluptatem labore.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quod
+                                        voluptatem nostrum aspernatur quisquam! Ullam, cum nam? Id aut quibusdam
+                                        aliquid,
+                                        autem nisi officia eveniet iste fugiat explicabo! Pariatur aliquam sequi
+                                        similique
+                                        ipsa illum impedit a.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row mt-5">
+                                <div class="col-md-6 mx-auto eve">
+                                    <img src="./img/event-birthday.jpg" alt="" class="img-responsive">
+                                </div>
+                                <div class="col-md-6 mx-auto">
+                                    <h4 style="color: #FFB03B;font-style: italic;font-weight: bolder;">Custom Parties
+                                    </h4>
+                                    <h3 style="color: white;font-weight: bolder;">99%
+                                        <hr
+                                            style="height: 3px;border: none;outline: none;width: 50px;background: #ff9900;opacity: 1;">
+                                    </h3>
+                                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Natus
+                                        ab harum impedit, corporis voluptatem labore.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;"> <i class="far fa-check-circle"
+                                            style="color: #FFB03B;font-size: 18px;"></i> Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.</p>
+                                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Quod
+                                        voluptatem nostrum aspernatur quisquam! Ullam, cum nam? Id aut quibusdam
+                                        aliquid,
+                                        autem nisi officia eveniet iste fugiat explicabo! Pariatur aliquam sequi
+                                        similique
+                                        ipsa illum impedit a.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Book our table section started -->
+    <div class="container-fluid mt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-mx-auto  text-center">
+                    <h1
+                        style=" font-weight: bolder; font-size: 3rem; font-family: French Script MT; vertical-align: inherit;">
+                        Book a <span style="color: #FFB03B;">Table</span></h1>
+                    <p>
+                        Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+                        voluptas
+                        atque vitae autem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container border pt-4 pb-4">
+        <!-- FORM -->
+        <form>
+            <div class="row g-3 d-flex align-content-center">
+                <div class="col-md-3 mx-auto">
+                    <input type="text" class="form-control py-2 rounded-0" id="inputEmail4" placeholder="Your Name">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <input type="text" class="form-control py-2 rounded-0" id="inputText4" placeholder="Your Email">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <input type="text" class="form-control py-2 rounded-0" id="inputAddress"
+                        placeholder="Your Phone No">
+                </div>
+            </div>
+            <div class="row g-3 d-flex align-content-center mt-2">
+                <div class="col-md-3 mx-auto">
+                    <input type="text" class="form-control py-2 rounded-0" id="inputEmail4" placeholder="Date">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <input type="text" class="form-control py-2 rounded-0" id="inputText4" placeholder="Time">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <input type="text" class="form-control py-2 rounded-0" id="inputAddress" placeholder="# of People">
+                </div>
+            </div>
+            <div class="mb-3 mt-4 col-md-11 mx-auto">
+                <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Your Message"></textarea>
+            </div>
+            <div class="col-12 text-center mt-3">
+                <button type="button" class="btn btn-warning fs-6" style="border-radius: 0;padding: 10px 30px;">Send
+                    Message</button>
+            </div>
+        </form>
+        <!-- End FORM -->
+    </div>
+    <!-- Book our table section ended -->
+    <!-- Gallery portion start-->
+    <div id="gallery">
+        <div class="container-fluid mt-5 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-mx-auto  text-center">
+                        <h1
+                            style=" font-weight: bolder; font-size: 3rem; font-family: French Script MT; vertical-align: inherit;">
+                            Some photos from <span style="color: #FFB03B;">Our Restaurant</span></h1>
+                        <p>
+                            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+                            voluptas
+                            atque vitae autem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-1.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-2.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-3.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-4.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd row of gallery imgs -->
+            <div class="row mt-2">
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-5.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-6.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-7.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto col-sm-9 mt-4">
+                    <div class="hvgallery">
+                        <img src="./img/gallery/gallery-8.jpg" class="inofimg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pb-5 mx-auto show">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-md-8 mt-3 col-sm-10 mx-auto pb-4">
+                    <div class="showes">
+                        <i class="far fa-times-circle hide"></i>
+                        <div class="showingimg mt-1">
+                            <!-- Img shows through JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery portion ended -->
+
+    <!-- Chef section has started -->
+    <div id="chefs">
+        <div class="container-fluid our-team">
+            <p class="h1 text-center" style="color:rgb(95, 89, 80);font-style: italic;">Our Professional <span
+                    style="color: #FFB03B;">Chefs</span></p>
+            <p class="text-center" style="color: rgb(95, 89, 80);">Magnam dolores commodi suscipit. Necessitatibus eius
+                consequatur <br> ex aliquid fuga eum quidem.</p>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-5 col-sm-10 rounded mx-auto team-card">
+                    <div><img src="./img/chefs/chefs-1.jpg" alt=""></div>
+                    <div class="member-info mx-auto w-75" style="background-color:white;">
+                        <h6 style="text-align: center;">Walter White</h6>
+                        <hr class="mx-auto"
+                            style="border: none;outline: none;height: 2px;width: 35%;background-color:#FFB03B;opacity: 1;">
+                        <p
+                            style="text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            Master Chef</p>
+                        <div class="member-links d-flex justify-content-center">
+                            <i class="fab fa-twitter link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-facebook link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-instagram link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-linkedin link" style="margin-left: 10px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-10 rounded mx-auto team-card">
+                    <div><img src="./img/chefs/chefs-2.jpg" alt=""></div>
+                    <div class="member-info mx-auto w-75" style="background-color:white;">
+                        <h6 style="text-align: center;">Sarah Jhonsons</h6>
+                        <hr class="mx-auto"
+                            style="border: none;outline: none;height: 2px;width: 35%;background-color:#FFB03B;opacity: 1;">
+                        <p
+                            style="text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            Cooker</p>
+                        <div class="member-links d-flex justify-content-center">
+                            <i class="fab fa-twitter link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-facebook link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-instagram link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-linkedin link" style="margin-left: 10px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-10 rounded mx-auto team-card">
+                    <div><img src="./img/chefs/chefs-3.jpg" alt=""></div>
+                    <div class="member-info mx-auto w-75" style="background-color: white;">
+                        <h6 style="text-align: center;">William Andersons</h6>
+                        <hr class="mx-auto"
+                            style="border: none;outline: none;height: 2px;width: 35%;background-color: #FFB03B;opacity: 1;">
+                        <p
+                            style="text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                            Manager</p>
+                        <div class="member-links d-flex justify-content-center">
+                            <i class="fab fa-twitter link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-facebook link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-instagram link" style="margin-left: 10px;"></i>
+                            <i class="fab fa-linkedin link" style="margin-left: 10px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Chef section ended -->
+
+    <!-- Slider of chefs started -->
+    <div class="slider">
+        <div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="3"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="4"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="s-img mx-auto"></div>
+                                <h4 class="fw-bold" style="color: white;text-align: center;">Saul Godamn</h4>
+                                <p style="color: rgb(95, 89, 80);text-align: center;">Ceo$ Founder</p>
+                                <div class="iconpack d-flex justify-content-center">
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                </div>
+                                <h5 class="mt-3" style="text-align: center;color: white;"><span
+                                        style="color: silver;">"</span>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Soluta esse quidem, unde delectus id veritatis aspernatur, aliquid
+                                    sapiente ullam sint libero. Cupiditate perferendis vero soluta hic, enim laudantium
+                                    quas nesciunt. <span style="color: silver;">"</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="s-img s-img1 mx-auto"></div>
+                                <h4 class="fw-bold" style="color: white;text-align: center;">Saul Godamn</h4>
+                                <p style="color: rgb(95, 89, 80);text-align: center;">Ceo$ Founder</p>
+                                <div class="iconpack d-flex justify-content-center">
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                </div>
+                                <h5 class="mt-3" style="text-align: center;color: white;"><span
+                                        style="color: silver;">"</span>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Soluta esse quidem, unde delectus id veritatis aspernatur, aliquid
+                                    sapiente ullam sint libero. Cupiditate perferendis vero soluta hic, enim laudantium
+                                    quas nesciunt. <span style="color: silver;">"</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="s-img s-img2 mx-auto"></div>
+                                <h4 class="fw-bold" style="color: white;text-align: center;">Saul Godamn</h4>
+                                <p style="color: rgb(95, 89, 80);text-align: center;">Ceo$ Founder</p>
+                                <div class="iconpack d-flex justify-content-center">
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                </div>
+                                <h5 class="mt-3" style="text-align: center;color: white;"><span
+                                        style="color: silver;">"</span>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Soluta esse quidem, unde delectus id veritatis aspernatur, aliquid
+                                    sapiente ullam sint libero. Cupiditate perferendis vero soluta hic, enim laudantium
+                                    quas nesciunt. <span style="color: silver;">"</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="s-img s-img3 mx-auto"></div>
+                                <h4 class="fw-bold" style="color: white;text-align: center;">Saul Godamn</h4>
+                                <p style="color: rgb(95, 89, 80);text-align: center;">Ceo$ Founder</p>
+                                <div class="iconpack d-flex justify-content-center">
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                </div>
+                                <h5 class="mt-3" style="text-align: center;color: white;"><span
+                                        style="color: silver;">"</span>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Soluta esse quidem, unde delectus id veritatis aspernatur, aliquid
+                                    sapiente ullam sint libero. Cupiditate perferendis vero soluta hic, enim laudantium
+                                    quas nesciunt. <span style="color: silver;">"</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="s-img s-img4 mx-auto"></div>
+                                <h4 class="fw-bold" style="color: white;text-align: center;">Saul Godamn</h4>
+                                <p style="color: rgb(95, 89, 80);text-align: center;">Ceo$ Founder</p>
+                                <div class="iconpack d-flex justify-content-center">
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                    <i class="fas fa-star" style="color: #FFB03B;"></i>
+                                </div>
+                                <h5 class="mt-3" style="text-align: center;color: white;"><span
+                                        style="color: silver;">"</span>Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Soluta esse quidem, unde delectus id veritatis aspernatur, aliquid
+                                    sapiente ullam sint libero. Cupiditate perferendis vero soluta hic, enim laudantium
+                                    quas nesciunt. <span style="color: silver;">"</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider of chef ended -->
+
+    <!-- Contact Us section started -->
+    <div class="container-fluid mt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-mx-auto  text-center">
+                    <h1
+                        style=" font-weight: bolder; font-size: 3.4rem; font-family: French Script MT; vertical-align: inherit;">
+                        <span style="color: #FFB03B;">Contact</span>Us</h1>
+                    <p>
+                        Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+                        voluptas
+                        atque vitae autem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- <div class="col-12"> -->
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440897.0680949357!2d-98.03360209314454!3d30.30805529976466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX%2C%20USA!5e0!3m2!1sen!2s!4v1615650491023!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+                <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe> -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 4 Divs started -->
+
+
+    <!-- 4 div ended -->
+    <!-- Contact us section ended -->
+</body>
+<script src="./app.js"></script>
+
+</html>
